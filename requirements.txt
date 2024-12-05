@@ -1,0 +1,15 @@
+langchain-openai
+flask
+flask-socketio
+python-dotenv
+gunicorn
+requests
+eventlet
+flask-cors
+langchain
+openai
+langchain-core>=0.3.0,<0.4
+chromadb
+langchain-community
+langchain-openai
+Flask-WTF
