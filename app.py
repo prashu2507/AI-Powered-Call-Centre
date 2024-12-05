@@ -20,9 +20,9 @@ from concurrent.futures import ThreadPoolExecutor
 from typing import Dict, Any, Tuple
 from dotenv import load_dotenv
 from flask import Flask, request, jsonify, Response
-from loan_counselor_agent import LoanCounselorAgent
 from langsmith import traceable
 from flask_cors import CORS
+from loan_counselor_agent import LoanCounselorAgent
 
 # Load environment variables and configure app
 def create_app() -> Flask:

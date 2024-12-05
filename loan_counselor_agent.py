@@ -18,9 +18,9 @@ from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 from langchain.memory import ConversationBufferMemory
 from langchain_core.prompts import PromptTemplate
+from langsmith import traceable
 from helpers import format_lenders_data
 from prompts import QUERY_RECOMMENDATION_PROMPT, INITIAL_PROMPT
-from langsmith import traceable
 from utils.constant import LENDER_DATA
 from vector_store.loan_recommendations import LoanRecommendationStore
 from vector_store.lender_store import LenderStore
